@@ -1,7 +1,4 @@
 #!/bin/bash
-# guessinggame.sh : devinez le nombre de fichiers du répertoire actuel
-
-# Compte les fichiers (non cachés) du répertoire actuel
 compter_fichiers() {
   local nombre=0
   local element
